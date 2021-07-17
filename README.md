@@ -1,17 +1,13 @@
-AppiumTestAutomation With Cucumber-jvm
+# AppiumTestAutomation With Cucumber-jvm
 
 This project exhibits how to combine BDD(Cucumber) approach with mobile automation.
 
-Prerequisite
-Android SDK
-Appium
-Maven (For managing dependencies)
-IntelliJ or Eclipse
+# Prerequisite  
+- Android SDK
+- Appium
+- Maven (For managing dependencies)
+- IntelliJ or Eclipse
 
-Android SDK
-Appium
-Maven (For managing dependencies)
-IntelliJ or Eclipse
-
-Install from git (using git clone)
-Run "mvn clean test" from project directory
+# Installation**
+- Install from git (using git clone)
+- Run "mvn clean test" from project directory
