@@ -7,8 +7,6 @@ import util.driver.DriverFactory;
 
 import java.io.IOException;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
-
 public class CucumberHooks {
 
     private static CucumberHooks instance;
@@ -27,7 +25,7 @@ public class CucumberHooks {
 
     @Before
     public void beforeNexus5xOreo() throws IOException {
-        driver = DriverFactory.getDriver(); //start our Android driver and device when we run a test with "Nexus5xOreo" as the tag
+        driver = DriverFactory.getDriver();
     }
 
     @After

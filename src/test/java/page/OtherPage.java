@@ -36,7 +36,7 @@ public class OtherPage extends MasterPage{
         Point location = BTN_PREMIUM.getMobileElement().getLocation();
         TouchAction action= new TouchAction(CucumberHooks.getInstance().getDriver());
         action.tap(new PointOption().withCoordinates(location.getX(),location.getY())).perform();
-        BTN_PREMIUM.waitFor(30);
+
     }
 
 }
